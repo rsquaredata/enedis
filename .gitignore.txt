@@ -1,0 +1,10 @@
+# Ignorer les fichiers de données volumineux
+*.csv
+*.pkl
+
+# Ignorer les dossiers pycache
+__pycache__/
+*.pyc
+
+# Ignorer d'autres dossiers de cache ou temporaires
+*.log
