@@ -1,0 +1,45 @@
+version: "3.8"
+
+services:
+  streamlit:
+    image: 6f4898405144  # Image de votre binôme (1.73GB)
+    container_name: greentech-streamlit
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./logs:/app/logs
+    environment:
+      - SERVICE_MODE=streamlit
+      - PYTHONUNBUFFERED=1
+      - STREAMLIT_SERVER_HEADLESS=true
+      - STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
+    restart: unless-stopped
+    networks:
+      - greentech-network
+
+  api:
+    image: 05a2475900ee  # Image API de votre binôme
+    container_name: greentech-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./logs:/app/logs
+    environment:
+      - SERVICE_MODE=api
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    networks:
+      - greentech-network
+
+networks:
+  greentech-network:
+    driver: bridge
+
+volumes:
+  data:
+  models:
+  logs:
