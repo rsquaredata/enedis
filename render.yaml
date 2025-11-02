@@ -1,0 +1,26 @@
+services:
+  # Service API FastAPI
+  - type: web
+    name: greentech-api
+    runtime: docker
+    dockerfilePath: ./streamlit/api/Dockerfile
+    dockerContext: ./streamlit/api
+    plan: free
+    envVars:
+      - key: PORT
+        value: 8000
+    healthCheckPath: /health
+
+  # Service Streamlit
+  - type: web
+    name: greentech-streamlit
+    runtime: docker
+    dockerfilePath: ./streamlit/Dockerfile
+    dockerContext: ./streamlit
+    plan: free
+    envVars:
+      - key: API_URL
+        sync: false
+      - key: PORT
+        value: 8501
+    healthCheckPath: /_stcore/health
