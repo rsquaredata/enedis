@@ -335,6 +335,25 @@ print(f"R² Score: {metrics['regression']['r2_score']}")
 - `conso_ecs_ef`
 - `conso_refroidissement_ef`
 - `type_energie_recodee`
+---
+## Annexes liées
+
+- [Annexe A - Matrice de traçabilité du sujet](https://github.com/Modou010/m2_enedis/blob/main/docs/management/SRS_Trace.md)  
+- [Annexe B - Matrice de traçabilité projet](https://github.com/Modou010/m2_enedis/blob/main/docs/management/Trace_project.md)
+---
+
+## Annexes - Captures d'écran
+
+### Page Accueil
+![capture_accueil](https://github.com/Modou010/m2_enedis/blob/Rina/docs/assets/img1.png)  
+### Page Contexte
+![capture_contexte](https://github.com/Modou010/m2_enedis/blob/Rina/docs/assets/img5.png)  
+### Page Analyse 
+![capture_analyse1](https://github.com/Modou010/m2_enedis/blob/Rina/docs/assets/img2.png) 
+### Page Analyse(carte)
+![capture_analyse2](https://github.com/Modou010/m2_enedis/blob/Rina/docs/assets/img4.png) 
+### Page Prédiction
+![capture_prediction](https://github.com/Modou010/m2_enedis/blob/Rina/docs/assets/img3.png)  
 
 
 ---
