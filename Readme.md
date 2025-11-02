@@ -178,6 +178,12 @@ greentech-solutions/
 
 ---
 
+## Documents clé à consulter
+- **Documentation fonctionnelle :** [Documentation fonctionnelle](https://github.com/Modou010/m2_enedis/blob/main/docs/doc_fonctionnelle.md)
+- **Documentation technique :** [Document technique](https://github.com/Modou010/m2_enedis/blob/main/docs/doc_technique.md)
+- **Presentation du projet :** [Presentation du projet](https://github.com/Modou010/m2_enedis/blob/main/docs/presentation_projet.md)
+- **Rapport projet :** [Rapport](https://github.com/Modou010/m2_enedis/edit/main/docs/rapport_ml.md)
+
 
 ## 🛠️ Installation
 
@@ -323,13 +329,6 @@ print(f"R² Score: {metrics['regression']['r2_score']}")
 - `conso_refroidissement_ef`
 - `type_energie_recodee`
 
----
-
-## Livrables
-- **Documentation fonctionnelle :** [Documentation fonctionnelle](https://github.com/Modou010/m2_enedis/blob/main/docs/doc_fonctionnelle.md)
-- **Documentation technique :** [Document technique](https://github.com/Modou010/m2_enedis/blob/main/docs/doc_technique.md)
-- **Presentation du projet :** [Presentation du projet](https://github.com/Modou010/m2_enedis/blob/main/docs/presentation_projet.md)
-- **Rapport projet :** [Rapport](https://github.com/Modou010/m2_enedis/edit/main/docs/rapport_ml.md)
 
 ---
 
