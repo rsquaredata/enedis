@@ -49,11 +49,11 @@ Statut : ⛔ = non implémenté / 🚧 = en cours / ✅ = validé
 
 | ID | Exigence | Description | Fichier | Statut | Preuve |
 |----|-----------|--------------|----------|---------|---------|
-| DOC-1 | README principal | Informations complètes, structure claire | `README.md` | ✅ | [lien README]() |
-| DOC-2 | Documentation technique | ≤2 pages, archi + installation + packages | `docs/doc_technique.md` | ✅ | [lien doc technique]() |
-| DOC-3 | Documentation fonctionnelle | ≤2 pages, description des pages & interactions | `docs/doc_fonctionnelle.md` | ✅ | [lien doc fonctionnelle]() |
-| DOC-4 | Rapport ML | 4–6 pages, métriques & interprétation | `docs/rapport_ml.md` | ✅ | [lien rapport ML]() |
-| DOC-5 | Schéma d'architecture | Draw.io export en PNG | `docs/assets/architecture.png` | ✅ | [schéma architecture]() |
+| DOC-1 | README principal | Informations complètes, structure claire | `README.md` | ✅ | [lien README](https://github.com/Modou010/m2_enedis/blob/main/Readme.md) |
+| DOC-2 | Documentation technique | ≤2 pages, archi + installation + packages | `docs/doc_technique.md` | ✅ | [lien doc technique](https://github.com/Modou010/m2_enedis/blob/main/docs/doc_technique.md) |
+| DOC-3 | Documentation fonctionnelle | ≤2 pages, description des pages & interactions | `docs/doc_fonctionnelle.md` | ✅ | [lien doc fonctionnelle](https://github.com/Modou010/m2_enedis/blob/main/docs/doc_fonctionnelle.md) |
+| DOC-4 | Rapport ML | 4–6 pages, métriques & interprétation | `docs/rapport_ml.md` | ✅ | [lien rapport ML](https://github.com/Modou010/m2_enedis/blob/main/docs/rapport_ml.md) |
+| DOC-5 | Schéma d'architecture | Draw.io export en PNG | `docs/assets/architecture.png` | ✅ | [schéma architecture](https://github.com/Modou010/m2_enedis/blob/main/docs/assets/schema_archicture_projet.jpg) |
 | DOC-6 | README clair dans /docs | Vue d'ensemble | `docs/README.md` | ✅ | |
 
 ---
@@ -70,6 +70,7 @@ Statut : ⛔ = non implémenté / 🚧 = en cours / ✅ = validé
 
 
 > **Dernière mise à jour** : 02/11/2025  
+
 
 
 
