@@ -28,11 +28,10 @@ L'ensemble du code est open-source et disponible sur GitHub.
 ### 2.2 Structure du dépôt
 
 ```
-.
 greentech-solutions/
 ├── Data/                                               # Données provenant des Apis
 ├   ├──data_ademe_existants_69.csv
-│   ├──data_ademe_existants_69.csv
+│   ├──data_ademe_neufs_69.csv
 │   ├──donnees_enedis_69_.csv  
 ├── Docs/                                               # documentation
 ├   ├──assets/
@@ -271,4 +270,5 @@ l'application ne charge pas les données car les fichiers de données et les dif
 
 Auteurs : Modou, Nico, Rina  
 Version : 1.0 – Novembre 2025
+
 
