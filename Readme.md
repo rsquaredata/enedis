@@ -58,13 +58,20 @@ Le projet couvre toutes les étapes du cycle de la donnée :
 greentech-solutions/
 ├── Data/                                               # Données provenant des Apis
 ├   ├──data_ademe_existants_69.csv
-│   ├──data_ademe_existants_69.csv
-│   ├──donnees_enedis_69_.csv                           # Application Streamlit principale
+│   ├──data_ademe_neufs_69.csv
+│   ├──donnees_enedis_69_.csv  
+├── Docs/                                               # documentation
+├   ├──assets/
+│   ├──management/
+├   ├──doc_fontctionnelle.md
+│   ├──doc_technique.md
+│   ├──rapport_ml.md
+│   ├──presentation_projet.md                           
 ├── Notebooks/
 ├   ├──1_extraction_preparation_donnees.ipynb
 │   ├──2_exploration_donnees.ipynb
 │   ├──3_classification_regression.ipynb
-├── streamlit/
+├── streamlit/                          # dossier application  
 |   ├── app.py                          # Application Streamlit principale
 |   ├── pages/                          # Pages Streamlit
 |   │   ├── welcome.py
