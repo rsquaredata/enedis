@@ -22,7 +22,7 @@ L'ensemble du code est open-source et disponible sur GitHub.
 
 ### 2.1 Schéma général
 
-<p align="center"><img src="schema_archicture_projet.jpg" alt="Schéma d’architecture du projet" width="80%"></p>
+<p align="center"><img src="assets/schema_archicture_projet.jpg" alt="Schéma d’architecture du projet" width="80%"></p>
 
 
 ### 2.2 Structure du dépôt
@@ -271,3 +271,4 @@ l'application ne charge pas les données car les fichiers de données et les dif
 
 Auteurs : Modou, Nico, Rina  
 Version : 1.0 – Novembre 2025
+
