@@ -119,12 +119,12 @@ greentech-solutions/
 |   │   ├──donnees_enedis_69_finales.csv
 |   │   ├── adresses-69.csv
 |   │   └── metadata.json
-├── Dockerfile                     
-├── docker-compose.yml             
-├── docker-entrypoint.sh           
-├── requirements.txt
-├── .dockerignore                  
-└── README.md
+|   ├── Dockerfile                     
+|   ├── docker-compose.yml             
+|   ├──docker-entrypoint.sh           
+|   ├── requirements.txt
+|   ├── .dockerignore                  
+└── ────README.md
 ```
 <p align="center"><img src="schema_archicture_projet.jpg" alt="Schéma d’architecture du projet" width="80%"></p>
 ```
