@@ -9,13 +9,13 @@ Statut : ⛔ = non implémenté / 🚧 = en cours / ✅ = validé
 
 | ID | Exigence | Description | Implémentation | Fichier / Section | Statut | Preuve |
 |----|-----------|--------------|----------------|-------------------|---------|---------|
-| STD-1 | Pages Streamlit | ≥ 3 pages distinctes (Contexte, Carte, Prédiction) | Multi-page Streamlit (`pages/`) | `app/pages/context.py`, `app/pages/map.py`, `app/pages/predict.py` | ✅ | [1]() </br> [capture page 2]() </br> [capture predict]() |
-| STD-2 | Images & icônes | Usage d'images, logos et icônes cohérents | Dossier `assets/` Streamlit | `app/assets/*` | ✅ | [affichage UI]() |
-| STD-3 | Carte interactive | Visualisation géographique avec marqueurs et filtres | Plotly Express / Folium / Pydeck | `app/pages/map.py` | ✅ | [capture carte]() |
+| STD-1 | Pages Streamlit | ≥ 3 pages distinctes (Contexte, Carte, Prédiction) | Multi-page Streamlit (`pages/`) | `app/pages/context.py`, `app/pages/map.py`, `app/pages/predict.py` | ✅ | [1](https://github.com/Modou010/m2_enedis/blob/main/docs/assets/img1.png) </br> [2](https://github.com/Modou010/m2_enedis/blob/main/docs/assets/img2.png) </br> [3](https://github.com/Modou010/m2_enedis/blob/main/docs/assets/img3.png) |
+| STD-2 | Images & icônes | Usage d'images, logos et icônes cohérents | Dossier `assets/` Streamlit | `app/assets/*` | ✅ |  |
+| STD-3 | Carte interactive | Visualisation géographique avec marqueurs et filtres | Plotly Express / Folium / Pydeck | `app/pages/map.py` | ✅ | [capture carte](https://github.com/Modou010/m2_enedis/blob/main/docs/assets/img4.png) |
 | STD-4 | Page Contexte | Présentation et exploration des données DPE | DataFrame + graphiques descriptifs | `app/pages/context.py` | ✅ | |
 | STD-5 | Filtres dynamiques | Widgets de sélection (select, checkbox, slider, radio) | st.selectbox / st.slider / st.radio | `app/components/filters.py` | ✅ | |
 | STD-6 | ≥4 types de graphes | histogrammes, barres, boxplots, scatter, pie, etc. | Plotly / Altair | `app/pages/context.py`, `app/pages/map.py` | ✅ | |
-| STD-7 | Méthodologie Scrum | Planification et suivi sur Taiga.io | backlog & sprints | `taiga_export.csv` | ✅ | [capture taiga]() |
+| STD-7 | Méthodologie Scrum | Planification et suivi sur Taiga.io | backlog & sprints | `taiga_export.csv` | ✅ | [capture taiga](https://github.com/Modou010/m2_enedis/blob/main/docs/assets/exemple_taiga.png) |
 
 ---
 
@@ -25,10 +25,10 @@ Statut : ⛔ = non implémenté / 🚧 = en cours / ✅ = validé
 |----|-----------|--------------|----------------|-------------------|---------|---------|
 | INT-1 | Export .png | Sauvegarde des graphiques au format image | Plotly `write_image()` / st.download_button | `app/components/exports.py` | ✅ | |
 | INT-2 | Export .csv | Export des données filtrées | st.download_button(csv) | `app/components/exports.py` | ✅ | |
-| INT-3 | Page Prédiction | Estimation DPE (classification) + conso (régression) | Pipeline sklearn + Streamlit UI | `app/pages/predict.py` | ✅ | |
-| INT-4 | Déploiement web | Application hébergée sur Render / Heroku / Shiny | Render (Procfile + runtime.txt) | `Procfile`, `runtime.txt` | 🚧 | [lien public]() |
-| INT-5 | OpenData enrichissement | Ajout variable externe (température, météo...) | API Meteo-France / ADEME | `services/opendata.py` | ✅ | [code API]() |
-| INT-6 | Documentation complète | Technique (≤2p), Fonctionnelle (≤2p), ML (4–6p) | Markdown dans `/docs` | `docs/*` | ✅ | [lien doc]() |
+| INT-3 | Page Prédiction | Estimation DPE (classification) + conso (régression) | Pipeline sklearn + Streamlit UI | `app/pages/prediction.py` | ✅ | |
+| INT-4 | Déploiement web | Application hébergée sur Render / Heroku / Shiny | Render (Procfile + runtime.txt) | `Procfile`, `runtime.txt` | 🚧 | [lien public]( https://greentech-streamlit.onrender.com) |
+| INT-5 | OpenData enrichissement | Ajout variable externe (température, météo...) | API Meteo-France / ADEME | `streamlit/data/enedis_69.csv` | ✅ | |
+| INT-6 | Documentation complète | Technique (≤2p), Fonctionnelle (≤2p), ML (4–6p) | Markdown dans `/docs` | `docs/*` | ✅ | [docs](https://github.com/Modou010/m2_enedis/tree/main/docs) |
 
 ---
 
@@ -70,4 +70,5 @@ Statut : ⛔ = non implémenté / 🚧 = en cours / ✅ = validé
 
 
 > **Dernière mise à jour** : 02/11/2025  
+
 
