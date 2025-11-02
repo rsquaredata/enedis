@@ -206,14 +206,26 @@ uvicorn api.main:app --reload
 
 ### Option 2 : Avec Docker (Recommandé)
 
+prérequis : avoir docker installé et avoir les images greentech-streamlit.tar ; greentch-api.tar que nous avons construit et partagé
+
 ```bash
-# Construire et lancer les services
+# charger l'image de l'application
+docker load -i greentech-streamlit.tar
+# charger l'image de l'api
+docker load -i greentech-api.tar
+# verifier que les images sont chargés
+docker images
+# lancer l'application
 docker-compose up -d
+
+# acceder à l'application
+# ** frontend streamlit : http://localhost/8501
+# ** API : http://localhost/8000
 
 # Voir les logs
 docker-compose logs -f
 
-# Arrêter les services
+# arreter l'application
 docker-compose down
 ```
 
@@ -341,9 +353,6 @@ docker run -p 8000:8000 \
 
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request, ou à nous laisser un message
 
-## 📄 Licence
-
-Ce projet est sous licence MIT.
 
 ## Contact
 
