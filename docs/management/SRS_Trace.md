@@ -39,7 +39,7 @@ Statut : ⛔ = non implémenté / 🚧 = en cours / ✅ = validé
 | EXP-1 | Actualisation via API | Rafraîchir les données DPE périodiquement | Script API Streamlit / Cron / Requests | `services/opendata.py` | ✅ | |
 | EXP-2 | Ré-entrainement modèle | UI pour lancer le réapprentissage | joblib + st.button("Réentraîner") | `app/pages/retrain.py` | ✅ | |
 | EXP-3 | Exposition API modèle | Endpoint REST (FastAPI / Flask) | Microservice séparé / API interne | `api/app.py` | ✅ | |
-| EXP-4 | Conteneurisation Docker | Dockerfile + build + push image | Dockerfile + CI/CD Render | `docker/Dockerfile` | ✅ | [lien docker] |
+| EXP-4 | Conteneurisation Docker | Dockerfile + build + push image | Dockerfile + CI/CD | `docker/Dockerfile` | ✅ | [dockerisation](https://github.com/Modou010/m2_enedis/blob/main/docs/assets/dockerisation_images.PNG) |
 | EXP-5 | Monitoring app | Logs, santé `/health`, suivi erreurs | logger + st.status / Render logs | `app/app.py` | ✅ | |
 | EXP-6 | Accessibilité & UX | Contraste AA, focus, tailles ≥16px | CSS custom Streamlit | `.streamlit/config.toml`, `app/styles/theme.css` | ✅ | |
 
@@ -70,6 +70,7 @@ Statut : ⛔ = non implémenté / 🚧 = en cours / ✅ = validé
 
 
 > **Dernière mise à jour** : 02/11/2025  
+
 
 
 
