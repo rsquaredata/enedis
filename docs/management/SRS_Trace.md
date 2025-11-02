@@ -9,7 +9,7 @@ Statut : ⛔ = non implémenté / 🚧 = en cours / ✅ = validé
 
 | ID | Exigence | Description | Implémentation | Fichier / Section | Statut | Preuve |
 |----|-----------|--------------|----------------|-------------------|---------|---------|
-| STD-1 | Pages Streamlit | ≥ 3 pages distinctes (Contexte, Carte, Prédiction) | Multi-page Streamlit (`pages/`) | `app/pages/context.py`, `app/pages/map.py`, `app/pages/predict.py` | ✅ | [capture page 1]() </br> [capture page 2]() </br> [capture predict]() |
+| STD-1 | Pages Streamlit | ≥ 3 pages distinctes (Contexte, Carte, Prédiction) | Multi-page Streamlit (`pages/`) | `app/pages/context.py`, `app/pages/map.py`, `app/pages/predict.py` | ✅ | [1]() </br> [capture page 2]() </br> [capture predict]() |
 | STD-2 | Images & icônes | Usage d'images, logos et icônes cohérents | Dossier `assets/` Streamlit | `app/assets/*` | ✅ | [affichage UI]() |
 | STD-3 | Carte interactive | Visualisation géographique avec marqueurs et filtres | Plotly Express / Folium / Pydeck | `app/pages/map.py` | ✅ | [capture carte]() |
 | STD-4 | Page Contexte | Présentation et exploration des données DPE | DataFrame + graphiques descriptifs | `app/pages/context.py` | ✅ | |
@@ -70,3 +70,4 @@ Statut : ⛔ = non implémenté / 🚧 = en cours / ✅ = validé
 
 
 > **Dernière mise à jour** : 02/11/2025  
+
