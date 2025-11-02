@@ -182,7 +182,7 @@ greentech-solutions/
 - **Documentation fonctionnelle :** [Documentation fonctionnelle](https://github.com/Modou010/m2_enedis/blob/main/docs/doc_fonctionnelle.md)
 - **Documentation technique :** [Document technique](https://github.com/Modou010/m2_enedis/blob/main/docs/doc_technique.md)
 - **Presentation du projet :** [Presentation du projet](https://github.com/Modou010/m2_enedis/blob/main/docs/presentation_projet.md)
-- **Rapport projet :** [Rapport](https://github.com/Modou010/m2_enedis/edit/main/docs/rapport_ml.md)
+- **Rapport Machine Learning :** [Rapport ML](https://github.com/Modou010/m2_enedis/blob/main/docs/rapport_ml.md)
 
 
 ## 🛠️ Installation
