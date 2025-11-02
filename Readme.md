@@ -353,7 +353,9 @@ Réalisé avec Taiga. A consulté :
 ### Page Analyse(carte)
 ![capture_analyse2](https://github.com/Modou010/m2_enedis/blob/Rina/docs/assets/img4.png) 
 ### Page Prédiction
-![capture_prediction](https://github.com/Modou010/m2_enedis/blob/Rina/docs/assets/img3.png)  
+![capture_prediction](https://github.com/Modou010/m2_enedis/blob/Rina/docs/assets/img3.png)
+### Page API
+![API](https://github.com/Modou010/m2_enedis/blob/main/docs/assets/api.PNG)
 
 
 ---
