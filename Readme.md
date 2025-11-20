@@ -1,3 +1,5 @@
+Application de data science visant à analyser la performance énergétique des logements du Rhône (DPE) et à proposer des outils prédictifs pour accompagner la transition énergétique. Le projet combine un pipeline complet : préparation des donénes, machine learning, intégration agile et interface interactive.
+---
 # 💡 GreenTech Solutions - Dashboard Énergétique
 
 Application Streamlit d'analyse des données énergétiques ADEME et Enedis.
