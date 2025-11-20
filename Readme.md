@@ -1,4 +1,4 @@
-# 🌿 GreenTech Solutions - Dashboard Énergétique
+# 💡 GreenTech Solutions - Dashboard Énergétique
 
 Application Streamlit d'analyse des données énergétiques ADEME et Enedis.
 > _Modélisation et visualisation des performances énergétiques des logements en France_
