@@ -1,5 +1,3 @@
-Application de data science visant à analyser la performance énergétique des logements du Rhône (DPE) et à proposer des outils prédictifs pour accompagner la transition énergétique. Le projet combine un pipeline complet : préparation des donénes, machine learning, intégration agile et interface interactive.
----
 # 💡 GreenTech Solutions - Dashboard Énergétique
 
 Application Streamlit d'analyse des données énergétiques ADEME et Enedis.
@@ -29,7 +27,7 @@ Le projet couvre toutes les étapes du cycle de la donnée :
 ---
 
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
 ### Interface Utilisateur (Streamlit)
 -  **Tableau de bord** : Visualisation interactive des données DPE
@@ -194,7 +192,7 @@ greentech-solutions/
 - **Rapport Machine Learning :** [Rapport ML](https://github.com/Modou010/m2_enedis/blob/main/docs/rapport_ml.md)
 
 
-## 🛠️ Installation
+## Installation
 
 ### Option 1 : Installation locale
 
@@ -244,7 +242,7 @@ docker-compose logs -f
 docker-compose down
 ```
 
-##  Accès aux services
+## Accès aux services
 ### En ligne : 
 - **Application streamlit** : https://greentech-streamlit-05km.onrender.com
 -  **Interface Api** : https://greentech-api-05km.onrender.com
@@ -283,7 +281,7 @@ curl -X POST http://localhost:8000/data/refresh?full_reload=true
 curl -X POST http://localhost:8000/models/retrain
 ```
 
-## 🔌 Exemples d'utilisation de l'API
+## Exemples d'utilisation de l'API
 
 ### Prédiction individuelle
 ```python
@@ -365,7 +363,7 @@ Réalisé avec Taiga. A consulté :
 
 ---
 
-## 🤝 Contribution
+## Contribution
 
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request, ou à nous laisser un message
 
